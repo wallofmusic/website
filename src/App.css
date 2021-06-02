@@ -1,38 +1,358 @@
-.App {
-  text-align: center;
+/* @import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css"; */
+.MainHeader{
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  padding-top: 20px;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
+.WebHeader{
+  
+  text-align:left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  color: black;
+  margin-left: 20%;
+  
+  
+}
+.WebHeader2{  
+  margin-left: 55%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10px;
+  
+}
+a{
+  
+  text-decoration: none;
+}
+a:visited{
+  color:black;
+  text-decoration: none;
+}
+@keyframes fadeIn{
+  0% {opacity: 0;}
+  100%{opacity: 1;}
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.Main{
+  animation: fadeIn 1s;
+}
+
+.LogoLinks {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: auto;
+}
+
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 30%;
+  padding: 0 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
+}
+.logos{
+  display: block;
+  margin: auto;
+}
+
+
+
+.App {
+  background-color: white;
+  min-height: 10000px;
+}
+
+.grid-container div {
+  display: block;
+  align-items: center;
+}
+.MainPhoto{
+  display: block;
+  width: 70%;
+  margin: auto;
+  
+}
+.AboutMe{
+  display: block;
+  margin:auto;
+  text-align: center;
+  width: 70%;
+  margin-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+}
+.Topic {
+  height: 150px;
+  width: 150px;
+  border-radius:50%;
+  border:2px solid rgb(255, 255, 255);  
+  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
+}
+
+.c1 {
+  position:absolute;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  width: 20ch;
+  height: 20ch;
+  border:2px solid rgb(255, 255, 255);  
+  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  will-change: transform, opacity;
+  background-size: cover;
+}
+
+.front1,
+.back1 {
+  background-size: cover;
+}
+
+.back1 {
+  background-image: url('images/codeIcon.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 75%;
+}
+
+.front1 {
+  background-image: url('https://thumbs.gfycat.com/ChubbySelfreliantGarpike-size_restricted.gif');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+.c2 {
+  position:absolute;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  width: 20ch;
+  height: 20ch;
+  border:2px solid rgb(255, 255, 255);  
+  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  will-change: transform, opacity;
+  
+}
+
+.front2,
+.back2 {
+  background-size: cover;
+}
+.back2 {
+  background-image: url('images/bassoonIcon.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 75%;
+}
+
+.front2 {
+  background-image: url('images/meplaying.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+
+.c3 {
+  position:absolute;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  width: 20ch;
+  height: 20ch;
+  border:2px solid rgb(255, 255, 255);  
+  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  will-change: transform, opacity;
+  background-size: cover;
+}
+
+.front3,
+.back3 {
+  background-size: cover;
+}
+.back3 {
+  background-image: url('images/cameraIcon.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 75%;
+}
+
+.front3 {
+  background-image: url('images/starrynight.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.PhotoCarousel{
+  width: 90%;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.PhotoCarousel div {
+  height: 150%;
+}
+.Photos{
+  vertical-align: middle;
+}
+.portrait{
+  margin-left:25%;
+  max-height: 45%;
+  max-width:45%;
+}
+
+.photoFolder{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  outline: solid;
+  font-size: 25px;
+  min-height: fit-content;
+  color: rgba(180, 14, 2, 0.664);
+  font-weight: 300;
+  margin-bottom: -30px;
+}
+.subHeader{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  min-height: fit-content;
+  color: rgba(180, 14, 2, 0.664);
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.slide img {
+  width: 100%;
+  border: 6px solid white;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 1000ms;
+  opacity: 0.2;
+
+}
+
+.activeSlide {
+  transform: scale(1);
+  max-height: 442px;
+  opacity: 1;
+  
+}
+
+.arrow{
+  position: absolute;
+  cursor: pointer;
+  z-index:10;
+  color:rgba(72, 197, 235, 0.664)
+}
+
+.arrow svg {
+  transition: color 300ms;
+  border-radius: 50%;
+}
+
+.arrow svg:hover {
+  color:white;
+  background-color: rgba(154, 0, 0, 1);
+  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
+}
+.next{
+  right: 0%;
+  top: 50%;
+}
+
+.prev{
+  left: 0%;
+  top: 50%;
+}
+.Resumebutton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.resume{
+  /* margin-left: 18%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+  width: 600px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.subjectLinks{
+  color: black;
 }
