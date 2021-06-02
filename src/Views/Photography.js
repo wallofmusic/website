@@ -53,18 +53,7 @@ return (
                   <img src={minervaBW}></img>
                   <img src={china}></img>
                   <img src={springSt}></img>
-          </div>
-          <div className='column'>
-                  <img src={boatworker}></img>
-                  <img src={beachwoman}></img>
-                  <img src={marcandres}></img>
-                  <img src={neowise}></img>
-                  <img src={minervaBW}></img>
-                  <img src={china}></img>
-                  <img src={springSt}></img>
-          </div>
-         
-         
+          </div>         
   </div>
 );
 }
