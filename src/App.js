@@ -36,7 +36,7 @@ function App() {
         <Router>
 
           <HomeView path='/'/>
-      
+          <Developer path='/developer'/>
           <Musician path='/musician'/>
           <Photography path='/photographer'/>
         </Router>
