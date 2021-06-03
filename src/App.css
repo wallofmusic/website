@@ -38,12 +38,22 @@ h4{
   font-size: 15px;  
 }
 @media only screen and (max-width: 600px) {
+  .MainHeader{
+    background-color: #26495c;
+  }
   .WebHeader {
     text-align:left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 33px;
-    color: green;
-    margin-left: 9.8%;
+    font-size: 20px;
+    color: black;
+    margin-left: 5.8%;
+  }
+  .WebHeader2{
+    margin-left: 62%;
+    margin-top: -45px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;  
   }
 }
 .WebHeader:hover{
