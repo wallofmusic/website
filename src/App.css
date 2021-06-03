@@ -16,7 +16,7 @@
   -ms-animation: fadeIn linear 1s;
 }
 h4{
-  margin-left: 19.5%;
+  margin-left: 10%;
   margin-top: -3px;
   font-size: 12px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -28,7 +28,7 @@ h4{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 33px;
   color: black;
-  margin-left: 20%;
+  margin-left: 9.8%;
   
   
 }
@@ -91,7 +91,9 @@ a:visited{
   animation: fadeIn 1s;
 
 }
-
+.photoPage{
+  animation: fadeIn 3s;
+}
 .LogoLinks {
   width: 30px;
   height: 30px;
@@ -115,9 +117,11 @@ a:visited{
   justify-content: center;
 }
 
-img{
-  
+.photoPage img{
+  object-fit: cover;
+  border: 1px solid white;
 }
+
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;

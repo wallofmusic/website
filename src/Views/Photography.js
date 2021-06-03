@@ -23,6 +23,10 @@ import constructionworkers from '../images/WebsitePhotos/Portfolio/constructionw
 import pugetsound from '../images/WebsitePhotos/Portfolio/pugetSound.jpg';
 import katrinaonthebeach from '../images/WebsitePhotos/Portfolio/katrinaonthebeach.jpg';
 import flowers from '../images/WebsitePhotos/Portfolio/26.jpg';
+import katrinaheadshot from '../images/WebsitePhotos/Portfolio/katrinaheadshot.jpg';
+import headbang from '../images/WebsitePhotos/Portfolio/headbang.jpeg';
+import fistpump from '../images/WebsitePhotos/Portfolio/fistpump.jpeg';
+import chinaBW1 from '../images/WebsitePhotos/Portfolio/chinaBW1.jpeg';
 import '../App.css';
 
 export default function Gallery() {
@@ -47,10 +51,11 @@ return (
                                 <img src={heron}></img>
                                 <img src={springSt}></img>
                                 <img src={minervaEyes}></img>
+                                <img src={chinaBW1}></img>
                                 <img src={onGreenlake}></img>
                                 <img src={pugetsound}></img>
                                 <img src={katrinaonthebeach}></img>
-                                
+                                <img src={headbang}></img>
                                 <img src={foggyDock}></img>
                                 <img src={snowGazebo}></img>
                                 
@@ -59,6 +64,8 @@ return (
                                 <img src={boat}></img>
                                 <img src={flowers}></img>
                                 <img src={snowChurch}></img>
+                                <img src={fistpump}></img>
+                                <img src={katrinaheadshot}></img>
                                 <img src={spirals}></img>
                                 <img src={forbiddenCityWalls}></img>
                                 <img src={mikeElyseRing}></img>
