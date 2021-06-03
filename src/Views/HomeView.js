@@ -2,7 +2,7 @@ import React from 'react'
 import TopicComponent1 from '../Components/TopicComponent1';
 import TopicComponent2 from '../Components/TopicComponent2';
 import TopicComponent3 from '../Components/TopicComponent3';
-import photo from '../images/mememe.jpg';
+import photo from '../images/WebsitePhotos/Portfolio/mainMe.jpg';
 import LogoLink from '../Components/LogoLink';
 
 const HomeView = () => {
@@ -33,6 +33,15 @@ const HomeView = () => {
         </div>
         <div className='logoPlacement'>
             <LogoLink className="logos" />
+        </div>
+        <div className='photoBlurb'>
+
+        </div>
+        <div className='devBlurb'>
+
+        </div>
+        <div className='musicBlurb'>
+            
         </div>
         </>
     )

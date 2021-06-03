@@ -18,43 +18,55 @@ import snowChurch from '../images/WebsitePhotos/Portfolio/14.jpg';
 import spirals from '../images/WebsitePhotos/Portfolio/15.jpg';
 import forbiddenCityWalls from '../images/WebsitePhotos/Portfolio/18.jpg';
 import mikeElyseRing from '../images/WebsitePhotos/People/3.jpg';
+import boat from '../images/WebsitePhotos/Portfolio/boat.jpg';
+import constructionworkers from '../images/WebsitePhotos/Portfolio/constructionworkers.jpg';
+import pugetsound from '../images/WebsitePhotos/Portfolio/pugetSound.jpg';
+import katrinaonthebeach from '../images/WebsitePhotos/Portfolio/katrinaonthebeach.jpg';
+import flowers from '../images/WebsitePhotos/Portfolio/26.jpg';
 import '../App.css';
 
 export default function Gallery() {
      
     
 return (
-  <div className='row'>
-          <div className='column'>
-                  <img src={boatworker}></img>
-                  <img src={beachwoman} className='horizontal'></img>
-                  <img src={marcandres}></img>
-                  <img src={neowise}></img>
-                  <img src={minervaBW}></img>
-                  <img src={china}></img>
-                  
-          </div>
-          <div className='column'>
-                  
-                  <img src={heron}></img>
-                  <img src={springSt}></img>
-                  <img src={minervaEyes}></img>
-                  <img src={onGreenlake}></img>
-                  <img src={foggy}></img>
-                  <img src={foggyDock}></img>
-                  <img src={snowGazebo}></img>
-                  <img src={snowBug}></img>
-          </div>
-          <div className='column'>
-                  <img src={snowChurch}></img>
-                  <img src={spirals}></img>
-                  <img src={forbiddenCityWalls}></img>
-                  <img src={mikeElyseRing}></img>
-                  <img src={minervaBW}></img>
-                  <img src={china}></img>
-                  <img src={springSt}></img>
-          </div>         
-  </div>
+        <div className='photoPage'>
+                <div className='row'>
+                        <div className='column'>
+                                <img src={boatworker}></img>
+                                <img src={beachwoman} className='horizontal'></img>
+                                <img src={marcandres}></img>
+                                <img src={neowise}></img>
+                                <img src={minervaBW}></img>
+                                <img src={china}></img>
+                                <img src={foggy}></img>
+                                <img src={snowBug}></img>
+                                
+                        </div>
+                        <div className='column'>
+                                
+                                <img src={heron}></img>
+                                <img src={springSt}></img>
+                                <img src={minervaEyes}></img>
+                                <img src={onGreenlake}></img>
+                                <img src={pugetsound}></img>
+                                <img src={katrinaonthebeach}></img>
+                                
+                                <img src={foggyDock}></img>
+                                <img src={snowGazebo}></img>
+                                
+                        </div>
+                        <div className='column'>
+                                <img src={boat}></img>
+                                <img src={flowers}></img>
+                                <img src={snowChurch}></img>
+                                <img src={spirals}></img>
+                                <img src={forbiddenCityWalls}></img>
+                                <img src={mikeElyseRing}></img>
+                                <img src={constructionworkers}></img>
+                                
+                        </div>         
+                </div>
+        </div>
 );
 }
 
