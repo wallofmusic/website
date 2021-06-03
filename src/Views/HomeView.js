@@ -17,7 +17,7 @@ const HomeView = () => {
                                         where he studied jazz saxophone with Charlie Richards and bassoon with Crystal Duffy née Parker. 
                                         In 2009, David left RCC for Seattle to help write and record an album with his band, A Billion Ernies, before taking 
                                         it on 2 two-month tours around the United States. Following his return from tour, David moved to Seattle, 
-                                        where he became heavily involved in the classical music scene and photography. David eventually attended the University
+                                        where he became heavily involved in the classical music scene and photography, and was a music volunteer at Seattle Children's Hospital. David eventually earned a BA in music from the University
                                         of Washington where he studied bassoon with Seth Krimsky, principal bassoonist for the Seattle Symphony. During his time there,
                                         David also taught intermediate tennis.
                                         He has been principal bassoon for the Puget Sound
@@ -41,7 +41,7 @@ const HomeView = () => {
 
         </div>
         <div className='musicBlurb'>
-            
+
         </div>
         </>
     )

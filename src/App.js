@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {Router, Link, navigate} from '@reach/router';
 import HomeView from './Views/HomeView';
 import Developer from './Views/Developer';
 import Musician from './Views/Musician';
 import Photography from './Views/Photography';
-
+import MUSICPHOTOS from './Views/musicPhotos';
+import PetPhotos from './Views/petImages';
+import PortraitPhotos from './Views/portraitImages';
 import { SpotifyApiContext, Artist } from 'react-spotify-api';
 
 function App() {
@@ -30,6 +32,9 @@ function App() {
           <Developer path='/developer'/>
           <Musician path='/musician'/>
           <Photography path='/photographer'/>
+          <MUSICPHOTOS path='/photographer/music'/>
+          <PetPhotos path='/photographer/pets'/>
+          <PortraitPhotos path='/photographer/portraits'/>
         </Router>
     
     </div>
