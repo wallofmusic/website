@@ -24,9 +24,9 @@ import pugetsound from '../images/WebsitePhotos/Portfolio/pugetSound.jpg';
 import katrinaonthebeach from '../images/WebsitePhotos/Portfolio/katrinaonthebeach.jpg';
 import flowers from '../images/WebsitePhotos/Portfolio/26.jpg';
 import katrinaheadshot from '../images/WebsitePhotos/Portfolio/katrinaheadshot.jpg';
-import headbang from '../images/WebsitePhotos/Portfolio/headbang.jpeg';
-import fistpump from '../images/WebsitePhotos/Portfolio/fistpump.jpeg';
-import chinaBW1 from '../images/WebsitePhotos/Portfolio/chinaBW1.jpeg';
+import headbang from '../images/WebsitePhotos/Portfolio/headbang.jpg';
+import fistpump from '../images/WebsitePhotos/Portfolio/fistpump.jpg';
+import chinaBW1 from '../images/WebsitePhotos/Portfolio/chinaBW1.jpg';
 import '../App.css';
 
 export default function Gallery() {
