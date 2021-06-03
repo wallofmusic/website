@@ -23,22 +23,28 @@ h4{
 
 }
 .WebHeader{
-  
   text-align:left;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 33px;
   color: black;
   margin-left: 9.8%;
-  
-  
 }
+
 .WebHeader2{  
   margin-left: 62%;
   margin-top: -45px;
   margin-bottom: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  
+  font-size: 15px;  
+}
+@media only screen and (max-width: 600px) {
+  WebHeader {
+    text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 33px;
+    color: green;
+    margin-left: 9.8%;
+  }
 }
 .WebHeader:hover{
   color: #c5dbee;
@@ -133,14 +139,31 @@ a:visited{
   
 }
 
-.logos{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.logoPlacement{
   margin-top: 20px;
- 
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  
+}
+.blurbSection{
+  display: inline-flex;
+  justify-content: space-evenly;
 }
 
+.blurbSection div{
+  width: 15%;
+}
+.blurbSection h3{
+  color: #e3e7eb;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+.blurbSection p{
+  color: #e3e7eb;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10px;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -211,7 +234,7 @@ a:visited{
   margin:auto;
   text-align: center;
   width: 70%;
-  margin-top: 50px;
+  margin-top: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
   color: #e3e7eb;
