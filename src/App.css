@@ -62,9 +62,7 @@ h4{
   }
   .images {
   
-    display: grid;
-    grid-template-columns: repeat(4, 60px);
-    grid-gap: 5px;
+    
     align-items: center;
     justify-content: space-evenly;
     margin-top: 10px;
