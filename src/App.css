@@ -187,40 +187,6 @@ a:visited{
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  
-    
-  .WebHeader {
-    text-align:left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    color: black;
-    margin-left: 5.8%;
-  }
-  .WebHeader2{
-    margin-left: 62%;
-    margin-top: -38px;
-    margin-bottom: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 8px;  
-  }
-  h4{
-    margin-left: 5.5%;
-    margin-top: -3px;
-    font-size: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
-  }
-  .portfolioImages {
-  
-  }
-  .subheaderPhotoPage nav{
-  
-   
-  }
-}
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   
@@ -249,7 +215,8 @@ a:visited{
     display: block;
   }
   .subheaderPhotoPage nav{
-  
+    display: flex;
+    justify-content: space-evenly;
    
   }
 }
