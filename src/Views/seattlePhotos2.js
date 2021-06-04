@@ -51,13 +51,16 @@ const Portfolio2 = () => {
                         <Link to='/photographer/travel' className='portraitPhotoLink'>Travel</Link>
                 </nav>
         </div>
-      <div className="portfolioImages">
+      <div className={` ${imgsLoaded ? "portfolioImages" : 'loadscreen'}`}>
         {imgsLoaded ? (
           seattlePhotos.map((image) => (
             <img key={image.id} src={image.url} alt="Human" className={image.orientation}/>
           ))
         ) : (
-          <h1>Loading images...</h1>
+          <div>
+              <h1>Preparing awesome photos...bleep blorp</h1>
+              <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+          </div>
         )}
       </div>
     </>

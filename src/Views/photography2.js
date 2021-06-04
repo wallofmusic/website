@@ -59,10 +59,7 @@ const Portfolio2 = () => {
         ) : (
           <div>
               <h1>Preparing awesome photos...bleep blorp</h1>
-              <div class="spinner">
-                <div class="cube1"></div>
-                <div class="cube2"></div>
-            </div>
+              <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
           </div>
         )}
       </div>
