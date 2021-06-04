@@ -5,9 +5,12 @@ import HomeView from './Views/HomeView';
 import Developer from './Views/Developer';
 import Musician from './Views/Musician';
 import Photography from './Views/photography2';
-import MUSICPHOTOS from './Views/musicPhotos';
-import PetPhotos from './Views/petImages';
-import PortraitPhotos from './Views/portraitImages';
+import MUSICPHOTOS from './Views/musicPhotos2';
+import PetPhotos from './Views/petPhotos2';
+import PortraitPhotos from './Views/portraitPhotos2';
+import SeattlePhotos from './Views/seattlePhotos2';
+import NaturePhotos from './Views/naturePhotos2';
+import TravelPhotos from './Views/travelPhotos2';
 import { SpotifyApiContext, Artist } from 'react-spotify-api';
 
 function App() {
@@ -35,6 +38,9 @@ function App() {
           <MUSICPHOTOS path='/photographer/music'/>
           <PetPhotos path='/photographer/pets'/>
           <PortraitPhotos path='/photographer/portraits'/>
+          <NaturePhotos path='/photographer/nature'/>
+          <SeattlePhotos path='/photographer/seattle'/>
+          <TravelPhotos path='/photographer/travel'/>
         </Router>
     
     </div>

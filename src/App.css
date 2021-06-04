@@ -60,7 +60,7 @@ h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
   }
-  .images {
+  .portfolioImages {
   
     display: grid;
     grid-template-columns: repeat(1, 60px);
@@ -269,32 +269,35 @@ a:visited{
   color: #e3e7eb;
 }
 
-h1 {
+.portfolioImages h1 {
+  width: 100%;
+  font-size: 20px;
   text-align: center;
   font-family: serif;
   color: whitesmoke;
 }
 
 
-.images {
+.portfolioImages {
   
   display: grid;
-  grid-template-columns: repeat(4, 210px);
+  grid-template-columns: repeat(3, 300px);
   grid-gap: 15px;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 10px;
+  
 }
-.images img {
+.portfolioImages img {
   width: 100%;
 }
 .vertical{
-  
+  animation: fadeIn 3s;
   border: 5px solid #e3e7eb;
   
 }
 .horizontal{
-  
+  animation: fadeIn 3s;
   border: 5px solid #e3e7eb;
   
   

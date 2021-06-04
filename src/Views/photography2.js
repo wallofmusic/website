@@ -41,8 +41,17 @@ const Portfolio2 = () => {
                 <nav>
                         <Link to='/photographer/portraits' className='portraitPhotoLink'>Portraits</Link>
                 </nav>
+                <nav>
+                        <Link to='/photographer/seattle' className='portraitPhotoLink'>Seattle</Link>
+                </nav>
+                <nav>
+                        <Link to='/photographer/nature' className='portraitPhotoLink'>Nature</Link>
+                </nav>
+                <nav>
+                        <Link to='/photographer/travel' className='portraitPhotoLink'>Travel</Link>
+                </nav>
         </div>
-      <div className="images">
+      <div className="portfolioImages">
         {imgsLoaded ? (
           portfolio.map((image) => (
             <img key={image.id} src={image.url} alt="Human" className={image.orientation}/>
