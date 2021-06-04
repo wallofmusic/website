@@ -223,14 +223,14 @@ a:visited{
   }
   .portfolioImages{
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(1, 300px) !important;
     grid-gap: 1px;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 10px;
   }
   .portfolioImages img{
-    width: 20% !important;
+    
   }
   .subheaderPhotoPage{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
