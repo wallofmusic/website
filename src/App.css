@@ -16,7 +16,7 @@
   -ms-animation: fadeIn linear 1s;
 }
 h4{
-  margin-left: 10%;
+  margin-left: 14.3%;
   margin-top: -3px;
   font-size: 12px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -27,7 +27,7 @@ h4{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 33px;
   color: black;
-  margin-left: 9.8%;
+  margin-left: 14%;
 }
 
 .WebHeader2{  
@@ -246,7 +246,7 @@ a:visited{
   .lds-ellipsis {
     display: inline-block;
     position: relative;
-    margin-left: 43%;
+    margin-left: 35%;
     width: 80px;
     height: 80px;
   }

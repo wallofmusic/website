@@ -8,9 +8,10 @@ export const portfolio = [
     },
     {
         id: 1,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782018/PhotosForWebsite/Music/Portfolio/grouponstairs_copy_rhpgud.jpg',
-        orientation: 'horizontal'
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782052/PhotosForWebsite/Music/Portfolio/IMG_4805_copy_bylsdk.jpg',
+        orientation: 'vertical'
     },
+    
     {
         id: 2,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782059/PhotosForWebsite/Music/Portfolio/IMG_9258_copy_o7td5v.jpg',
@@ -28,14 +29,13 @@ export const portfolio = [
     },
     {
         id: 5,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782052/PhotosForWebsite/Music/Portfolio/IMG_4805_copy_bylsdk.jpg',
-        orientation: 'vertical'
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782018/PhotosForWebsite/Music/Portfolio/grouponstairs_copy_rhpgud.jpg',
+        orientation: 'horizontal'
     },
-   
     {
         id: 6,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782054/PhotosForWebsite/Music/Portfolio/IMG_9140_copy_thiujl.jpg',
-        orientation: 'horizontal'
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782036/PhotosForWebsite/Music/Portfolio/IMG_4081_copy_tfr1un.jpg',
+        orientation: 'vertical'
     },
     {
         id: 7,
@@ -52,12 +52,13 @@ export const portfolio = [
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782054/PhotosForWebsite/Music/Portfolio/IMG_8561_copy_pcpxef.jpg',
         orientation: 'horizontal'
     },
-    
     {
         id: 10,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782036/PhotosForWebsite/Music/Portfolio/IMG_4081_copy_tfr1un.jpg',
-        orientation: 'vertical'
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782054/PhotosForWebsite/Music/Portfolio/IMG_9140_copy_thiujl.jpg',
+        orientation: 'horizontal'
     },
+    
+  
     {
         id: 11,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782047/PhotosForWebsite/Music/Portfolio/IMG_4859_copy_gnss0c.jpg',
@@ -65,9 +66,10 @@ export const portfolio = [
     },
     {
         id: 12,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782044/PhotosForWebsite/Music/Portfolio/IMG_4160_copy_c4yct7.jpg',
-        orientation: 'horizontal'
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782043/PhotosForWebsite/Music/Portfolio/IMG_4584_copy_tdco8q.jpg',
+        orientation: 'vertical'
     },
+    
     {
         id: 13,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782036/PhotosForWebsite/Music/Portfolio/IMG_4442_copy_v3smnd.jpg',
@@ -75,19 +77,20 @@ export const portfolio = [
     },
     {
         id: 14,
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782021/PhotosForWebsite/Music/Portfolio/IMG_1437_copy_pfeyrj.jpg',
+        orientation: 'vertical'
+    },
+    {
+        id: 15,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782032/PhotosForWebsite/Music/Portfolio/IMG_3282_copy_fkcdgg.jpg',
         orientation: 'horizontal'
     },
     {
-        id: 15,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782043/PhotosForWebsite/Music/Portfolio/IMG_4584_copy_tdco8q.jpg',
-        orientation: 'vertical'
-    },
-    {
         id: 16,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782021/PhotosForWebsite/Music/Portfolio/IMG_1437_copy_pfeyrj.jpg',
-        orientation: 'vertical'
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782044/PhotosForWebsite/Music/Portfolio/IMG_4160_copy_c4yct7.jpg',
+        orientation: 'horizontal'
     },
+    
     {
         id: 17,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782055/PhotosForWebsite/Music/Portfolio/IMG_7663_copy_h9wf9p.jpg',
@@ -98,34 +101,34 @@ export const portfolio = [
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782021/PhotosForWebsite/Music/Portfolio/IMG_1382_copy_dcttqy.jpg',
         orientation: 'vertical'
     },
-    
-    
     {
         id: 19,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782028/PhotosForWebsite/Music/Portfolio/IMG_2188_copy_ckleba.jpg',
-        orientation: 'horizontal'
-    },
-    {
-        id: 20,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782025/PhotosForWebsite/Music/Portfolio/IMG_3341_copy_ibqmum.jpg',
-        orientation: 'horizontal'
-    },
-    {
-        id: 21,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782016/PhotosForWebsite/Music/Portfolio/IMG_0515_copy_qh6xor.jpg',
         orientation: 'vertical'
     },
     {
+        id: 20,
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782018/PhotosForWebsite/Music/Portfolio/headbangcopy_copy_ozywqi.jpg',
+        orientation: 'vertical'
+    },
+    {
+        id: 21,
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782028/PhotosForWebsite/Music/Portfolio/IMG_2188_copy_ckleba.jpg',
+        orientation: 'horizontal'
+    },
+    {
         id: 22,
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782025/PhotosForWebsite/Music/Portfolio/IMG_3341_copy_ibqmum.jpg',
+        orientation: 'horizontal'
+    },
+    
+    {
+        id: 23,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782048/PhotosForWebsite/Music/Portfolio/IMG_6946_copy_nkguy3.jpg',
         orientation: 'horizontal'
     },
    
-    {
-        id: 23,
-        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782018/PhotosForWebsite/Music/Portfolio/headbangcopy_copy_ozywqi.jpg',
-        orientation: 'vertical'
-    },
+    
     {
         id: 24,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782011/PhotosForWebsite/Music/Portfolio/13_copy_cuzlwe.jpg',
