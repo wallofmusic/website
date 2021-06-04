@@ -185,7 +185,21 @@ a:visited{
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  
+  .MainHeader{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+  }
   .WebHeader {
     text-align:left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -207,8 +221,11 @@ a:visited{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
   }
+  .portfolioImages{
+    display: block;
+  }
   .portfolioImages img{
-    width: 20%;
+    width: 10%;
   }
   .subheaderPhotoPage{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
