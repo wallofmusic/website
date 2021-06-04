@@ -211,6 +211,23 @@ a:visited{
 .portfolioImages img {
   width: 100%;
 }
+.photoContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+ 
+  width: 100%;
+}
+.overlay{
+  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
 }
 @media screen and (max-width: 600px) {
   .MainHeader{
@@ -268,7 +285,7 @@ a:visited{
     top: 58px;
     display: flex;
     justify-content: space-evenly;
-    border-top: 2px solid grey;
+    border-top: 1px solid grey;
     border-bottom: 2px solid grey;
   }
   .lds-ellipsis {
@@ -289,6 +306,7 @@ a:visited{
   
   background-color: #26495c;
   min-height: 1000px;
+  max-width: 100%;
 }
 
 .grid-container {
@@ -333,42 +351,6 @@ a:visited{
   border: 5px solid #e3e7eb;
   box-shadow: 5px 5px 5px black;
   
-}
-.overlay{
- 
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-}
-.photoContainer{
-  display: grid;
-  grid-template-columns: repeat(3, 300px);
- 
-  width: 100%;
-  
-  
-}
-.photoContainer:hover .overlay {
-  
-  opacity: 1;
-}
-.overlayText{
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-150%, -10%);
-  text-align: center;
-
 }
 .horizontal:hover{
   opacity: .2;
