@@ -60,6 +60,9 @@ h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
   }
+  .images img {
+    width: 50%;
+  }
 }
 .WebHeader:hover{
   color: #c5dbee;
