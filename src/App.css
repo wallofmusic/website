@@ -37,39 +37,7 @@ h4{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;  
 }
-@media only screen and (max-width: 600px) {
-  
-  .WebHeader {
-    text-align:left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    color: black;
-    margin-left: 5.8%;
-  }
-  .WebHeader2{
-    margin-left: 62%;
-    margin-top: -38px;
-    margin-bottom: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 8px;  
-  }
-  h4{
-    margin-left: 5.5%;
-    margin-top: -3px;
-    font-size: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
-  }
-  .portfolioImages {
-  
-    display: grid;
-    grid-template-columns: repeat(1, 60px);
-    grid-gap: 5px;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 10px;
-  }
-}
+
 .WebHeader:hover{
   color: #c5dbee;
 }
@@ -225,6 +193,35 @@ a:visited{
     flex: 50%;
     max-width: 50%;
   }
+    
+  .WebHeader {
+    text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 5.8%;
+  }
+  .WebHeader2{
+    margin-left: 62%;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;  
+  }
+  h4{
+    margin-left: 5.5%;
+    margin-top: -3px;
+    font-size: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  .portfolioImages {
+  
+  }
+  .subheaderPhotoPage nav{
+  
+   
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -232,6 +229,35 @@ a:visited{
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+    
+  .WebHeader {
+    text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 5.8%;
+  }
+  .WebHeader2{
+    margin-left: 62%;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;  
+  }
+  h4{
+    margin-left: 5.5%;
+    margin-top: -3px;
+    font-size: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  .portfolioImages {
+  
+  }
+  .subheaderPhotoPage nav{
+  
+   
   }
 }
 .photoPage{
