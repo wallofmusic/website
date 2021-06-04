@@ -230,7 +230,7 @@ a:visited{
     margin-top: 10px;
   }
   .portfolioImages img{
-    width: 20%;
+    width: 20% !important;
   }
   .subheaderPhotoPage{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
