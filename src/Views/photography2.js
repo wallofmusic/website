@@ -54,7 +54,12 @@ const Portfolio2 = () => {
       <div className= {` ${imgsLoaded ? "portfolioImages" : 'loadscreen'}`}>
         {imgsLoaded ? (
           portfolio.map((image) => (
-            <img key={image.id} src={image.url} alt="Human" className={image.orientation}/>
+            <div className='photoContainer'>
+            <img key={image.id} src={image.url} alt={image.desc} className={image.orientation} title={image.desc}/>
+            <div className='overlay'>
+              <div className='overlayText'>{image.desc}</div>
+            </div>
+            </div>
           ))
         ) : (
           <div>
