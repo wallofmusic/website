@@ -150,12 +150,12 @@ a:visited{
 .blurbSection h3{
   color: #e3e7eb;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 .blurbSection p{
   color: #e3e7eb;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 10px;
+  font-size: 15px;
 }
 .row {
   display: flex;
@@ -310,7 +310,7 @@ a:visited{
   width: 70%;
   margin-top: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
+  font-size: 20px;
   color: #e3e7eb;
 }
 
