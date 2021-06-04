@@ -48,13 +48,13 @@ h4{
   }
   .WebHeader2{
     margin-left: 62%;
-    margin-top: -45px;
+    margin-top: -38px;
     margin-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 8px;  
   }
   h4{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: -3px;
     font-size: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -117,17 +117,21 @@ a:visited{
 }
 .subheaderPhotoPage{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: white;
+  background-color: rgb(130, 192, 243);
   text-align: center;
   position: -webkit-sticky;
   position: sticky;
   top: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
 
 }
 .subheaderPhotoPage nav{
-  margin-right: 5px;
+  
+  margin-left: -20%;
+  margin-right: -20%;
 }
 .musicPhotoLink:hover{
   color: #c5dbee;
