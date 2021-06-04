@@ -2,7 +2,7 @@ import React from 'react'
 import TopicComponent1 from '../Components/TopicComponent1';
 import TopicComponent2 from '../Components/TopicComponent2';
 import TopicComponent3 from '../Components/TopicComponent3';
-import photo from '../images/PhotosForWebsite.mainMe.jpg';
+import photo from '../images/PhotosForWebsite/mainMe.jpg';
 import LogoLink from '../Components/LogoLink';
 
 const HomeView = () => {
