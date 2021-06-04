@@ -243,6 +243,13 @@ a:visited{
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
   }
+  .lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    margin-left: 43%;
+    width: 80px;
+    height: 80px;
+  }
 }
 .photoPage{
   background-color: #c8dff5;
