@@ -54,7 +54,7 @@ h4{
     font-size: 8px;  
   }
   h4{
-    margin-left: 5%;
+    margin-left: 5.5%;
     margin-top: -3px;
     font-size: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -117,7 +117,8 @@ a:visited{
 }
 .subheaderPhotoPage{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgb(130, 192, 243);
+  font-size: 12px;
+  background-color: white;
   text-align: center;
   position: -webkit-sticky;
   position: sticky;
@@ -265,23 +266,30 @@ h1 {
   color: whitesmoke;
 }
 
+
 .images {
+  
   display: grid;
-  grid-template-columns: repeat(3, max-content);
-  grid-gap: 2px;
-  
-  
+  grid-template-columns: repeat(4, 210px);
+  grid-gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
-
 .images img {
-  height: 500px;
-  object-fit: contain;
+  width: 100%;
 }
-
-
-
-
-
+.vertical{
+  
+  border: 5px solid #e3e7eb;
+  
+}
+.horizontal{
+  
+  border: 5px solid #e3e7eb;
+  
+  
+}
 
 
 
@@ -502,3 +510,4 @@ h1 {
 .subjectLinks{
   color: black;
 }
+

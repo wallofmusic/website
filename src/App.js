@@ -4,7 +4,7 @@ import {Router, Link, navigate} from '@reach/router';
 import HomeView from './Views/HomeView';
 import Developer from './Views/Developer';
 import Musician from './Views/Musician';
-import Photography from './Views/Photography';
+import Photography from './Views/photography2';
 import MUSICPHOTOS from './Views/musicPhotos';
 import PetPhotos from './Views/petImages';
 import PortraitPhotos from './Views/portraitImages';
