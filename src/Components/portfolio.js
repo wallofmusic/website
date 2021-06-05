@@ -11,7 +11,7 @@ export const portfolio = [
         id: 1,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782052/PhotosForWebsite/Music/Portfolio/IMG_4805_copy_bylsdk.jpg',
         orientation: 'vertical',
-        desc: 'classic tail lights'
+        desc: 'Classic tail lights'
     },
     
     {

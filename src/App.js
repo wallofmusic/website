@@ -1,5 +1,6 @@
 
 import './App.css';
+import './App.scss';
 import {Router, Link, navigate} from '@reach/router';
 import HomeView from './Views/HomeView';
 import Developer from './Views/Developer';
