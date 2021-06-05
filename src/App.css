@@ -336,12 +336,7 @@ a:visited{
   box-shadow: 5px 5px 5px black;
   
 }
-.horizontal:hover{
-  opacity: .2;
-}
-.vertical:hover{
-  opacity: .2;
-}
+
 
 .loadscreen div{
   text-align: center;
