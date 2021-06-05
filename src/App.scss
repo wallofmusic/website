@@ -2,7 +2,7 @@
     color: white;
     font-size: 15px;
     height: 100%;
-    width: 29%;
+    width: 20%;
     position: absolute;
     text-align: center;
     
@@ -14,7 +14,7 @@
     color: white;
     font-size: 15px;
     height: 100%;
-    width: 29%;
+    width: 20%;
     position: absolute;
     text-align: center;
     
@@ -23,7 +23,7 @@
 }
 .photoContainer:hover{
     
-    &.photoContainer p{opacity: 1} 
+    &.photoContainer p{opacity: 1 ;} 
     &.photoContainer img{opacity: .2;} 
 }
 
@@ -35,7 +35,7 @@
         width: 34.75%;
         position: absolute;
         text-align: center;
-    
+        vertical-align: bottom;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         opacity: 0;
     }
