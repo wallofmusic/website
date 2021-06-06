@@ -2,7 +2,7 @@ import React,{ useState } from 'react';
 import {Router, Link, navigate} from '@reach/router';
 import ResumeComponent from '../Components/ResumeComponent';
 import Resume from '../images/DavidWallResume.jpg';
-import barHopper from '../Components/barhopping';
+
 import screenshot from '../images/barhopperphoto.jpg';
 
 const Developer = () => {
