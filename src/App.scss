@@ -32,7 +32,7 @@
         color: white;
         font-size: 15px;
         height: 40% !important;
-        width: 25% !important;
+        width: 28% !important;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         opacity: 0;
     }
@@ -41,7 +41,7 @@
         color: white;
         font-size: 15px;
         height: 100% !important;
-        width: 25% !important;
+        width: 28% !important;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         opacity: 0;
     }
@@ -52,30 +52,30 @@
     }
 }
 
-// @media screen and (max-width: 750px){
-//     .overlayTexthorizontal{
-//         color: white;
-//         font-size: 15px;
-//         height: 80% !important;
-//         width: 50% !important;
-//         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-//         opacity: 0;
-//     }
+@media screen and (max-width: 750px){
+    .overlayTexthorizontal{
+        color: white;
+        font-size: 15px;
+        height: 80% !important;
+        width: 50% !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 0;
+    }
     
-//     .overlayTextvertical{
-//         color: white;
-//         font-size: 15px;
-//         height: 100% !important;
-//         width: 50% !important;
-//         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-//         opacity: 0;
-//     }
-//     .photoContainer:hover{
+    .overlayTextvertical{
+        color: white;
+        font-size: 15px;
+        height: 100% !important;
+        width: 50% !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 0;
+    }
+    .photoContainer:hover{
         
-//         &.photoContainer p{opacity: 1;} 
-//         &.photoContainer img{opacity: .2;} 
-//     }
-// }
+        &.photoContainer p{opacity: 1;} 
+        &.photoContainer img{opacity: .2;} 
+    }
+}
 @media screen and (max-width: 850px){
     .overlayTexthorizontal{
         color: white;
