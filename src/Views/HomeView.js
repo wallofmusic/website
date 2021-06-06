@@ -32,8 +32,8 @@ const HomeView = () => {
         <div className="blurbSection">
         <div className='photoBlurb'>
             <h3>On Photography:</h3>
-            <p>Being a creative and artistic person, yet with very little natural skill with drawing, photography was a natural
-                avenue for me to explore the natural beauty of the world around me. Looking at the world through a camera makes you realize 
+            <p>Being a creative and artistic person, yet with very little innate skill with drawing, photography was a natural
+                avenue for me to explore the beauty of the world around me. Looking at the world through a camera makes you realize 
                 how interesting even seemingly mundane things can be.
             </p>
         </div>

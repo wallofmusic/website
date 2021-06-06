@@ -7,6 +7,12 @@ export const seattlePhotos = [
         orientation: 'vertical'
     },
     {
+        id: 33,
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622918127/PhotosForWebsite/Seattle%20%20/IMG_9166_tc0t0t.jpg',
+        orientation: 'vertical',
+        desc: 'Katrina'
+    },
+    {
         id: 1,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622779215/PhotosForWebsite/Music/Seattle%20%20/prideSign_xcafjv.jpg',
         orientation: 'vertical'
@@ -162,7 +168,7 @@ export const seattlePhotos = [
         orientation: 'horizontal'
     },
     {
-        id: 31,
+        id: 32,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622780034/PhotosForWebsite/Seattle%20%20/seattleSpirals_fdqiym.jpg',
         orientation: 'horizontal'
     },

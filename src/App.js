@@ -43,8 +43,9 @@ function App() {
           <SeattlePhotos path='/photographer/seattle'/>
           <TravelPhotos path='/photographer/travel'/>
         </Router>
-    
+        <p className='copyright'>All content copyright @David Wall</p>
     </div>
+    
     </SpotifyApiContext.Provider>
   );
 }

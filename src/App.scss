@@ -23,7 +23,7 @@
 }
 .photoContainer:hover{
     
-    &.photoContainer p{opacity: 1 ;} 
+    &.photoContainer p{opacity: 1;} 
     &.photoContainer img{opacity: .2;} 
 }
 
@@ -31,11 +31,8 @@
     .overlayTexthorizontal{
         color: white;
         font-size: 15px;
-        height: 100%;
-     
-        position: absolute;
-        text-align: center;
-        vertical-align: bottom;
+        height: 40%;
+        width: 30%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         opacity: 0;
     }
@@ -44,16 +41,62 @@
         color: white;
         font-size: 15px;
         height: 100%;
-        
-        position: absolute;
-        text-align: center;
-    
+        width: 30%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         opacity: 0;
     }
     .photoContainer:hover{
         
-        &.photoContainer p{opacity: 1} 
+        &.photoContainer p{opacity: 1;} 
+        &.photoContainer img{opacity: .2;} 
+    }
+}
+
+@media screen and (max-width: 700px){
+    .overlayTexthorizontal{
+        color: white;
+        font-size: 15px;
+        height: 80% !important;
+        width: 47% !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 0;
+    }
+    
+    .overlayTextvertical{
+        color: white;
+        font-size: 15px;
+        height: 100%;
+        width: 47% !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 0;
+    }
+    .photoContainer:hover{
+        
+        &.photoContainer p{opacity: 1;} 
+        &.photoContainer img{opacity: .2;} 
+    }
+}
+@media screen and (max-width: 850px){
+    .overlayTexthorizontal{
+        color: white;
+        font-size: 15px;
+        height: 65% !important;
+        width: 38% !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 0;
+    }
+    
+    .overlayTextvertical{
+        color: white;
+        font-size: 15px;
+        height: 145% !important;
+        width: 38% !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 0;
+    }
+    .photoContainer:hover{
+        
+        &.photoContainer p{opacity: 1;} 
         &.photoContainer img{opacity: .2;} 
     }
 }

@@ -8,6 +8,12 @@ export const portfolio = [
         desc: 'Boat Worker on a foggy morning'
     },
     {
+        id: 30,
+        url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622918016/PhotosForWebsite/Music/IMG_9006_u8znkm.jpg',
+        orientation: 'vertical',
+        desc: 'Timothy Conducting'
+    },
+    {
         id: 1,
         url: 'https://res.cloudinary.com/myveryownwebsite/image/upload/v1622782052/PhotosForWebsite/Music/Portfolio/IMG_4805_copy_bylsdk.jpg',
         orientation: 'vertical',
