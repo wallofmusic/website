@@ -29,7 +29,7 @@
 .lds-ellipsis{
     display: inline-block;
     position: relative;
-    margin-left: 47%;
+    margin-left: 53%;
     width: 80px;
     height: 80px;
 }
@@ -245,7 +245,7 @@
     .lds-ellipsis {
         display: inline-block;
         position: relative;
-        margin-left: 45%;
+        margin-left: 43%;
         width: 80px;
         height: 80px;
     }
@@ -290,7 +290,6 @@
     }
     
     .overlayTextvertical{
-        background-color: white;
         color: white;
         font-size: 15px;
         height: 10% !important;
@@ -309,32 +308,3 @@
     }
 }
 
-@media screen and (max-width: 850px){
-
-    .overlayTexthorizontal{
-        color: white;
-        font-size: 15px;
-        height: 65% !important;
-        width: 38% !important;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        opacity: 0;
-    }
-    
-    .overlayTextvertical{
-        color: white;
-        font-size: 15px;
-        height: 70% !important;
-        width: 70% !important;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        opacity: 0;
-    }
-    .photoContainer:hover{
-        
-        &.photoContainer p{opacity: 1;} 
-        &.photoContainer img{opacity: .2;} 
-    }
-    .ellipsesContainer{
-        width: 100%;
-        justify-content: space-evenly;
-    }
-}
