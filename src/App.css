@@ -22,14 +22,14 @@
 h4{
   margin-left: 14.3%;
   margin-top: -3px;
-  font-size: 12px;
+  font-size: 14px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .WebHeader{
   text-align:left;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 33px;
+  font-size: 37px;
   color: black;
   margin-left: 14%;
 }
@@ -39,7 +39,7 @@ h4{
   margin-top: -45px;
   margin-bottom: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;  
+  font-size: 18px;  
 }
 
 .WebHeader:hover{
@@ -192,7 +192,7 @@ a:visited{
 .copyright{
   background-color: #26495c;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 10px;
+  font-size: 13px;
   color: #e3e7eb;
   text-align: center;
 }
