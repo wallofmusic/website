@@ -15,6 +15,7 @@ import TravelPhotos from './Views/travelPhotos2';
 import { SpotifyApiContext, Artist } from 'react-spotify-api';
 
 function App() {
+  
   return (
     <SpotifyApiContext.Provider value={'BQAy86uEic0nTPTmqBtJm6GXCP-ZXmBrAFGaS6uLl3K1V2oqriN2RdqEbh00K4SLPTtnc3jTFwlsl0M1Ut0j8Vji6RUmpa8NuunZF-M8u-6OghcqBgiEtDkap0vwlE4GKEnuShMxX-rN2A'}>
     <div className="App">
