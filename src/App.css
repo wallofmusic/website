@@ -547,12 +547,11 @@ a:visited{
   color: black;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 600px){
   .developerPage{
     display: grid;
     grid-template-columns: repeat(1, 300px);
     grid-gap: 35px;
     width: 100%;
-    align-items: center !important;
   }
 }
