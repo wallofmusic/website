@@ -28,6 +28,41 @@
 }
 
 @media screen and (max-width: 13.3in){
+
+  .portfolioImages {
+    display: grid;
+    grid-template-columns: repeat(3, 285px);
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+
+  .portfolioImages img {
+    width: 100%;
+  }
+  .developerPage{
+    display: grid;
+    grid-template-columns: repeat(2, 375px);
+    grid-gap: 20px;
+  }
+
+  .resume{
+    position: absolute;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .barhopperScreenShot{
+    display:grid;
+    grid-template-columns: repeat(1, 200px);
+    width: 40%;
+    margin: 10px auto;
+  }
     .overlayTexthorizontal{
         color: white;
         font-size: 15px;
@@ -52,7 +87,183 @@
     }
 }
 
+
+@media screen and (max-width: 900px) {
+
+    .MainHeader{
+      background-color: white;
+      width: 100%;
+      height: 40px;
+      padding-top: 20px;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px;
+      animation: fadeIn linear 1s;
+      -webkit-animation: fadeIn linear 1s;
+      -moz-animation: fadeIn linear 1s;
+      -o-animation: fadeIn linear 1s;
+      -ms-animation: fadeIn linear 1s;
+    }
+  
+    .WebHeader {
+      text-align:left;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+      color: black;
+      margin-left: 5.8%;
+    }
+  
+    .WebHeader2{
+      margin-left: 62%;
+      margin-top: -38px;
+      margin-bottom: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 8px;  
+    }
+  
+    h4{
+      margin-left: 5.5%;
+      margin-top: -3px;
+      font-size: 8px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  
+    .portfolioImages{
+      display: grid;
+      grid-template-columns: repeat(2, 300px) !important;
+      grid-gap: 1px;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 10px;
+    }
+    
+    .subheaderPhotoPage{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 12px;
+      background-color: white;
+      text-align: center;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 58px;
+      display: flex;
+      justify-content: space-evenly;
+      border-top: 1px solid grey;
+      border-bottom: 2px solid grey;
+    }
+  
+    .lds-ellipsis {
+      display: inline-block;
+      position: relative;
+      margin-left: 30%;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .MainPhoto{
+      display: block;
+      width: 65%;
+      margin: auto;
+    }
+  }
+  
 @media screen and (max-width: 750px){
+
+  .MainHeader{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+  }
+
+  .WebHeader {
+    text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 5.8%;
+  }
+
+  .WebHeader2{
+    margin-left: 62%;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;  
+  }
+
+  h4{
+    margin-left: 5.5%;
+    margin-top: -3px;
+    font-size: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .portfolioImages{
+    display: grid;
+    grid-template-columns: repeat(1, 250px) !important;
+    grid-gap: 1px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  
+  .subheaderPhotoPage{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    background-color: white;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 58px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+    border-bottom: 2px solid grey;
+  }
+
+  .lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+    width: 80px;
+    height: 80px;
+  }
+
+  .MainPhoto{
+    display: block;
+    width: 75%;
+    margin: auto;
+  }
+  .developerPage{
+    display: grid;
+    grid-template-columns: repeat(1, 375px);
+    grid-gap: 20px;
+  }
+
+  .resume{
+    position: absolute;
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .barhopperScreenShot{
+    display:grid;
+    grid-template-columns: repeat(1, 200px);
+    width: 40%;
+    margin: 10px auto;
+  }
     .overlayTexthorizontal{
         color: white;
         font-size: 15px;
