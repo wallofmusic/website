@@ -325,9 +325,9 @@ a:visited{
 .subHeader{
   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 25px;
+  font-size: 30px;
   min-height: fit-content;
-  color: rgba(243, 176, 171, 0.664);
+  color: rgba(248, 177, 24, 0.664);
   font-weight: 300;
   height: 50px;
 }
@@ -347,7 +347,7 @@ a:visited{
 .resume{
   position: absolute;
   display: block;
-  margin-left: 20%;
+  margin-left: 18%;
   margin-right: auto;
   width: 50%;
   margin-top: 50px;
