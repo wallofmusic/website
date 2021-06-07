@@ -486,9 +486,10 @@ a:visited{
 
 .developerPage{
   display: grid;
-  grid-template-columns: repeat(3, 450px);
+  grid-template-columns: repeat(3, 400px);
   grid-gap: 35px;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .subHeader{
