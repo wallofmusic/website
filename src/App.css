@@ -551,7 +551,7 @@ a:visited{
 @media screen and (max-width: 13.3in){
   .developerPage{
     display: grid;
-    grid-template-columns: repeat(1, 375px);
+    grid-template-columns: repeat(2, 375px);
     grid-gap: 20px;
     
   }
@@ -560,7 +560,7 @@ a:visited{
     display: block;
     margin-left: 15%;
     margin-right: auto;
-    width: 75%;
+    width: 50%;
     margin-top: 50px;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
   }
