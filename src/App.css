@@ -1,4 +1,9 @@
 
+.App {
+  background-color: #26495c;
+  min-height: 2300px;
+}
+
 .MainHeader{
   background-color: white;
   width: 100%;
@@ -353,11 +358,6 @@ a:visited{
 
 .photoPage{
   background-color: #c8dff5;
-}
-
-.App {
-  background-color: #26495c;
-  min-height: 2000px;
 }
 
 .copyright{
