@@ -32,7 +32,7 @@ const Developer = () => {
             </div>
             <div className='barhopperDiv'>
                 <a href='https://master.d39bj68r0o14nj.amplifyapp.com/' className='barhopperLink'>Play BarHopper!</a>
-                <p className='barhopperDesc'>Try to drink all the beverages</p>
+                <p className='barhopperDesc'>Try to drink all the beverages by navigating your character with the arrow keys (Desktop only, for now)</p>
                 <img src={screenshot} className='barhopperScreenShot'></img>
             </div>
         </div>
