@@ -360,37 +360,6 @@ a:visited{
 .photoPage{
   background-color: #c8dff5;
 }
-/* .overlayTextvertical{
-  color: white;
-  font-size: 15px;
-  height: 10%;
-  width: 32.75%;
-  position: absolute;
-  text-align: center;
-  margin-top: 20%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  opacity: 1;
-}
-.overlayTexthorizontal{
-  color: white;
-  font-size: 15px;
-  height: 5%;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  margin-top: 10%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  opacity: 1;
-  
-}
-.horizontal:hover {
-  opacity: .5;
-}
-.vertical:hover {
-  opacity: .5;
-}
- */
-
 
 .App {
   
@@ -515,197 +484,26 @@ a:visited{
 }
 
 
-
-.Topic {
-  height: 150px;
-  width: 150px;
-  border-radius:50%;
-  border:2px solid rgb(255, 255, 255);  
-  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
+.developerPage{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 35px;
+  width: 100%;
+ 
 }
 
-.c1 {
-  position:absolute;
-  max-width: 150px;
-  max-height: 150px;
-  border-radius: 50%;
-  width: 20ch;
-  height: 20ch;
-  border:2px solid rgb(255, 255, 255);  
-  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  will-change: transform, opacity;
-  background-size: cover;
-}
-
-.front1,
-.back1 {
-  background-size: cover;
-}
-
-.back1 {
-  background-image: url('images/codeIcon.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: 75%;
-}
-
-.front1 {
-  background-image: url('https://thumbs.gfycat.com/ChubbySelfreliantGarpike-size_restricted.gif');
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-}
-
-.c2 {
-  position:absolute;
-  max-width: 150px;
-  max-height: 150px;
-  border-radius: 50%;
-  width: 20ch;
-  height: 20ch;
-  border:2px solid rgb(255, 255, 255);  
-  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  will-change: transform, opacity;
-  
-}
-
-.front2,
-.back2 {
-  background-size: cover;
-}
-.back2 {
-  background-image: url('images/bassoonIcon.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: 75%;
-}
-
-.front2 {
-  background-image: url('images/meplaying.jpg');
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-}
-
-
-.c3 {
-  position:absolute;
-  max-width: 150px;
-  max-height: 150px;
-  border-radius: 50%;
-  width: 20ch;
-  height: 20ch;
-  border:2px solid rgb(255, 255, 255);  
-  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  will-change: transform, opacity;
-  background-size: cover;
-}
-
-.front3,
-.back3 {
-  background-size: cover;
-}
-.back3 {
-  background-image: url('images/cameraIcon.png');
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: 75%;
-}
-
-.front3 {
-  background-image: url('images/starrynight.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.PhotoCarousel{
-  width: 90%;
-  vertical-align: middle;
-  margin: 0 auto;
-  padding-top: 50px;
-}
-
-.PhotoCarousel div {
-  height: 150%;
-}
-.Photos{
-  vertical-align: middle;
-}
-.portrait{
-  margin-left:25%;
-  max-height: 45%;
-  max-width:45%;
-}
-
-.photoFolder{
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  outline: solid;
-  font-size: 25px;
-  min-height: fit-content;
-  color: rgba(180, 14, 2, 0.664);
-  font-weight: 300;
-  margin-bottom: -30px;
-}
 .subHeader{
   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 25px;
   min-height: fit-content;
-  color: rgba(180, 14, 2, 0.664);
+  color: rgba(243, 176, 171, 0.664);
   font-weight: 300;
-  margin-top: 0px;
-}
 
-.slide img {
-  width: 100%;
-  border: 6px solid white;
-}
-
-.slide {
-  transform: scale(0.2);
-  transition: transform 1000ms;
-  opacity: 0.2;
-
-}
-
-.activeSlide {
-  transform: scale(1);
-  max-height: 442px;
-  opacity: 1;
+  height: 50px;
   
 }
 
-.arrow{
-  position: absolute;
-  cursor: pointer;
-  z-index:10;
-  color:rgba(72, 197, 235, 0.664)
-}
-
-.arrow svg {
-  transition: color 300ms;
-  border-radius: 50%;
-}
-
-.arrow svg:hover {
-  color:white;
-  background-color: rgba(154, 0, 0, 1);
-  box-shadow: 10px 15px 20px -5px rgba(0, 0, 0, 0.3);
-}
-.next{
-  right: 0%;
-  top: 50%;
-}
-
-.prev{
-  left: 0%;
-  top: 50%;
-}
 .Resumebutton{
   display: block;
   margin-left: auto;
@@ -713,20 +511,41 @@ a:visited{
   width: 100px;
   
 }
-.barhopperlink{
-  display: flex;
+.barhopperDiv{
+  
+  height: 150px;
+  text-align: center;
 }
 .resume{
   /* margin-left: 18%; */
+  position: absolute;
   display: block;
-  margin-left: auto;
+  margin-left: 20%;
   margin-right: auto;
   width: 50%;
   margin-top: 50px;
   width: 600px;
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
+.barhopperScreenShot{
+  display:grid;
+  grid-template-columns: repeat(1, 200px);
+  width: 40%;
+  margin: 10px auto;
+}
+.barhopperLink{
+  color: white !important;
+  text-decoration: underline;
+  
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.barhopperDesc{
+  font-size: 12px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
 .subjectLinks{
   color: black;
 }

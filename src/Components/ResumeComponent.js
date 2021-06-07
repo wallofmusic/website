@@ -1,6 +1,6 @@
 import React from 'react'
 
-import resume from '../images/DavidWallDeveloperResume.jpg';
+import resume from '../images/DavidResume6.6.jpg';
 
 const ResumeComponent = () => {
     return (
