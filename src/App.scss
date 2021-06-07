@@ -26,6 +26,14 @@
     &.photoContainer p{opacity: 1;} 
     &.photoContainer img{opacity: .2;} 
 }
+.lds-ellipsis{
+    display: inline-block;
+    position: relative;
+    margin-left: 47%;
+    width: 80px;
+    height: 80px;
+}
+
 
 @media screen and (max-width: 13.3in){
 
@@ -80,11 +88,12 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             opacity: 0;
     }
-    .photoContainer:hover{
-            
-            &.photoContainer p{opacity: 1;} 
-            &.photoContainer img{opacity: .2;} 
-    }
+    .lds-ellipsis{ display: inline-block;
+        position: relative;
+        margin-left: 46%;
+        width: 80px;
+        height: 80px;}
+  
 }
 
 
@@ -154,7 +163,7 @@
     .lds-ellipsis {
         display: inline-block;
         position: relative;
-        margin-left: 30%;
+        margin-left: 45%;
         width: 80px;
         height: 80px;
     }
@@ -163,6 +172,10 @@
         display: block;
         width: 65%;
         margin: auto;
+    }
+    .ellipsesContainer{
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
 
@@ -232,7 +245,7 @@
     .lds-ellipsis {
         display: inline-block;
         position: relative;
-        margin-left: 30%;
+        margin-left: 45%;
         width: 80px;
         height: 80px;
     }
@@ -252,7 +265,7 @@
     .resume{
         position: absolute;
         display: block;
-        margin-left: 15%;
+        margin-left: 13%;
         margin-right: auto;
         width: 75%;
         margin-top: 50px;
@@ -290,6 +303,10 @@
         &.photoContainer p{opacity: 1;} 
         &.photoContainer img{opacity: .2;} 
     }
+    .ellipsesContainer{
+        width: 100%;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -315,5 +332,9 @@
         
         &.photoContainer p{opacity: 1;} 
         &.photoContainer img{opacity: .2;} 
+    }
+    .ellipsesContainer{
+        width: 100%;
+        justify-content: space-evenly;
     }
 }

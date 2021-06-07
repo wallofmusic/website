@@ -60,7 +60,7 @@ const Portfolio2 = () => {
             </div>
           ))
         ) : (
-          <div>
+          <div className='ellipsesContainer'>
               <h1>Loading awesome photos...bleep blorp</h1>
               <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
           </div>
