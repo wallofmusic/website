@@ -16,6 +16,7 @@ const Musician = (props) => {
   return (
     <div>
       <h1>Music!</h1>
+      <p> Content forthcoming</p>
     <Artist id={'28eNxtn09ZVxAI23Pzpe4U'}>
     {({ data, loading, error }) =>
       data ? (
