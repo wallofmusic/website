@@ -64,6 +64,12 @@ export const travelPhotos = [
         desc: 'Maggie and Mountains'
     },
     {
+        id: 13,
+        url: 'https://lh3.googleusercontent.com/MwZh0DbtS4m3p8HZ1Rsi3DIQAhvUMd8KkOve6I0Pbd5Lh94c0HY0S1UqLd7ElEveAKQ0GDAeSzRy_wBQsxguKg2lfHaNMAtOnk172p-eB9_T4JYexU008JOvew0_vtNuZVaF74l10YcZ-9FKyzZ09DFLiHGcB5cXRTDCoGConK_iT3ByAiOpPpzdC-zNF7nCol7ca4iIXZJaroG-_N3OTm4Xb0KUGMFOB7KiSb1OaH0DJG6eh1Z3Y1G_SSitMDRFrAls_8zFWSUdQTwjOn0CfwQAhXr0f4dKY99J-2sm8GK0JU-tCJJntG0UvdMhmRLL8yQipCtapks4hZp3bkJglEouthPnDHR2kpR4Erqd622-04c3Vu8_ojiFRNCMXvFSJoZjAPKc2XZUYQtA7GxUDKcQRdFa6wlnHEVZKNaSy9cRFimKlcUIovouowXkOOE86bHsUlAAHj1EewrzNQfSCxZ19VqUvEtKO-ApOmksLU_QjHLHebezPuXZ7MDHSH63BsC66gQeK6xmgABrKoggrQXsqMvgphc-Is4dTmC7_0K5PShkul7YLaEYd0AdckPnWsbu66MjPmu_hA4J-ofcd649Z9cVwcseOGSCRqyg6oyiSc_w7QhWsCQDs5fk17BAHbQNRot-MF47woiW7pbGsyk80mru1Hgd6BWYJvkAE5lKSfIGoUy3mhVEykEY1jWTKLKKOzeZ7qlPANkJqcPRkPU=w1964-h1302-no?authuser=0',
+        orientation: 'horizontal',
+        desc: 'Selfies'
+    },
+    {
         id: 6,
         url: 'https://lh3.googleusercontent.com/kUpP-g8HFCbzrIKvVy2DztZ8jgoAJ8lsChpvgSvJqjE73uxfgIqSbFIbjxeWhfmVYAVRKiCj3kRG8Kzaxh0Nej4qIMwwKRxU8AhGOKLwDnZkKc0u_8OqmT5hg0MvgAZ-IN86lUG5734ASwuoEswESNCzcmaOEB2x0jG4lTk93nl2qzWn3mZjXMhW5ZW9h6nrPLRFowsCksTXkp6sWGW-v1LfBDkxDnRbRTSOxXkEqnTEfm10iUylDNvRjS1vDNgqjr-kbKrSXLYMo8abXAqylLtuzqpBGGemU_JtN3EZfb8O08hQRIdd1dNLWErAZfueN18TTXqkUaVQsPfKsuw1h9PHcFC4gQzwAc0wzQ2_dNAAQfv1sIUQRPHlon2-bki-cVAXJRrKqqlyUhJilk6IFD8SjLtgbK4tIwirmK7gCbgxS5nLoDLK_1jjlLl_OcEoShnOTdq-ADmEXsDhBbtsNgsTll9X1nrJb0bSFYhHdx5CU7QJ0y7rIMjSGNtQ6C0G_hIpMMtTyE4IJ13c5QQK1wGlGoAwbFyXIqOCLIJcHNnmKCR-o25uNPTAA0_S7SVZAGMJkwaWe-NTVxK3wkCdggzEUqgFC8dHvpHzq5R30B7Y_mhrNTqrKS5CdJrxZOVaSW4rIM6R_XgCUv-0BOrng7b5XNlXfOTyBT1jvxOQsSxtyM69lizS8Q_mb4LtC88Ly9Ub-Zbav3vynBUqU8gYNBk=w864-h1302-no?authuser=0',
         orientation: 'horizontal',
