@@ -47,7 +47,7 @@ const HomeView = () => {
         </div>
         <div className='musicBlurb'>
             <h3>On Music:</h3>
-            <p>Music has been one of the most central aspects to my life, both playing and listening to it, and it has many roles in my life. 
+            <p>Music has been one of the most central aspects to my life, both playing and listening to it, and it plays many roles. 
                 Writing and performing music is a major outlet of emotion, anxiety, and just about any other feeling that is trapped in my brain, as well as being 
                 a large social cornerstone. Exploring differing types of music is hugely important to me, as it offers unique perspectives of the world from other musicians, whether 
                 it's classical, jazz, rock, choral, folk, or just about any type of music. Music can be historical, educational, encouraging, calming, or just plain fun.
